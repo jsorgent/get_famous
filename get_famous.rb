@@ -1,6 +1,7 @@
 #
 # Leah Culver's Get Famous algorithm, published CUSEC 2009
 #
+# @todo NEEDS HEURISTICS!?
 # @return whether or not you will become famous
 #
 def get_famous
