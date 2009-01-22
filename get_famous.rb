@@ -6,7 +6,8 @@
 #
 def get_famous
   begin
-    make_friends && move_to_san_fransisco
+    move_to_san_francisco && make_friends
+    do_interesting_things
   rescue TotalFailError
     whats_the_worst_that_can_happen
   end
